@@ -1,0 +1,9 @@
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\bin\Debug\MathLogic.dll
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\bin\Debug\MathLogic.pdb
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\bin\Debug\MathLogic.xml
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\obj\Debug\MathLogic.Resources.resources
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\obj\Debug\MathLogic.vbproj.GenerateResource.Cache
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\obj\Debug\MathLogic.dll
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\obj\Debug\MathLogic.xml
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\obj\Debug\MathLogic.pdb
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogic\obj\Debug\MathLogic.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\bin\Debug\MathLogicTests.dll
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\bin\Debug\MathLogicTests.pdb
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\bin\Debug\MathLogicTests.xml
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\bin\Debug\MathLogic.dll
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\bin\Debug\MathLogic.pdb
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\bin\Debug\MathLogic.xml
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\obj\Debug\MathLogicTests.vbprojResolveAssemblyReference.cache
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\obj\Debug\MathLogicTests.Resources.resources
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\obj\Debug\MathLogicTests.vbproj.GenerateResource.Cache
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\obj\Debug\MathLogicTests.dll
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\obj\Debug\MathLogicTests.xml
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\MathLogicTests\obj\Debug\MathLogicTests.pdb

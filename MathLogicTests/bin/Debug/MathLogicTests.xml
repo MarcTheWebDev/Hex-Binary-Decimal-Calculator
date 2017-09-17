@@ -1,0 +1,167 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MathLogicTests
+</name>
+</assembly>
+<members>
+<member name="T:MathLogicTests.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MathLogicTests.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MathLogicTests.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MathLogicTests.CalculatorMathLogicTest">
+ -----------------------------------------------------------------------------
+ Project	 : MathLogicTests
+ Class	 : CalculatorMathLogicTest
+ -----------------------------------------------------------------------------
+ <summary>
+   Tests the Math Logic class containing all of the math / base conversion logic for the calculator project
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Marcus]	2/20/2017	Created
+ </history>
+ -----------------------------------------------------------------------------
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.AdditionLargeNegativeTest">
+ <summary>
+ This test adds two large negative  numbers to test the Addition method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.AdditionSmallNegativeTest">
+ <summary>
+ This test adds two small negative numbers to test the Addition method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.AdditionLargePositiveTest">
+ <summary>
+ This test adds two large positive numbers to test the Addition method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.AdditionSmallPositiveTest">
+ <summary>
+ This test adds two small positive numbers to test the Addition method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.AdditionZeroTest">
+ <summary>
+ This test adds zeros to test the Addition method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.SubtractionLargeNegativeTest">
+ <summary>
+ This test subtracts two large negative numbers to test the subtraction method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.SubtractionSmallNegativeTest">
+ <summary>
+ This test subtracts two small negative numbers to test the subtraction method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.SubtractionLargePositiveTest">
+ <summary>
+ This test subtracts two large positive numbers to test the subtraction method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.SubtractionSmallPositiveTest">
+ <summary>
+ This test subtracts two small positive numbers to test the subtraction method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.SubtractionZeroTest">
+ <summary>
+ This test subtracts two zeros to test the subtraction method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.DivisionLargeNegativeTest">
+ <summary>
+ This test divides two large negative numbers to test the division method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.DivisionSmallNegativeTest">
+ <summary>
+ This test divides two small negative numbers to test the division method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.DivisionLargePositiveTest">
+ <summary>
+ This test divides two large positive numbers to test the division method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.DivisionSmallPositiveTest">
+ <summary>
+ This test divides two small positive numbers to test the division method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.MultiplicationLargeNegativeTest">
+ <summary>
+ This test multiplies two large negative numbers to test the Multiplication method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.MultiplicationSmallNegativeTest">
+ <summary>
+ This test multiplies two small negative numbers to test the Multiplication method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.MultiplicationLargePositiveTest">
+ <summary>
+ This test multiplies two large positive numbers to test the Multiplication method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.MultiplicationSmallPositiveTest">
+ <summary>
+ This test multiplies two small positive numbers to test the Multiplication method
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.ConvertingBinaryToDecimalTest">
+ <summary>
+ This tests the ConverToDecimal method's ability to convert binary to decimal values by passing a 
+ list of varying values
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.ConvertingOctalToDecimalTest">
+ <summary>
+ This tests the ConverToDecimal method's ability to convert binary to Octal values by passing a 
+ list of varying values
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.ConvertingBase31ToDecimalTest">
+ <summary>
+ This tests the ConverToDecimal method's ability to convert binary to Base31 values by passing a 
+ list of varying values
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.ConvertingBinaryFromDecimalTest">
+ <summary>
+ This tests the ConvertFromDecimal method's ability to convert decimal to binary values by passing a 
+ list of varying values
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.ConvertingOctalFromDecimalTest">
+ <summary>
+ This tests the ConvertFromDecimal method's ability to convert decimal to Octal values by passing a 
+ list of varying values
+ </summary>
+</member>
+<member name="M:MathLogicTests.CalculatorMathLogicTest.ConvertingBase31FromDecimalTest">
+ <summary>
+ This tests the ConvertFromDecimal method's ability to convert decimal to Base31 values by passing a 
+ list of varying values
+ </summary>
+</member>
+</members>
+</doc>

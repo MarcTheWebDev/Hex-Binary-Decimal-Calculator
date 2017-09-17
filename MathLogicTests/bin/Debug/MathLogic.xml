@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MathLogic
+</name>
+</assembly>
+<members>
+<member name="T:MathLogic.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MathLogic.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MathLogic.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MathLogic.CalculatorMathLogic">
+ -----------------------------------------------------------------------------
+ Project	 : MathLogic
+ Class	 : CalculatorMathLogic
+ -----------------------------------------------------------------------------
+ <summary>
+   Holds the Math Logic for the calculator. This includes basic functions like addition and subtraction
+   but it also handles converting from a given base to decimal (base 10) and vice versa
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Marcus]	2/20/2017	Created
+ </history>
+ -----------------------------------------------------------------------------
+</member>
+<member name="M:MathLogic.CalculatorMathLogic.Addition(System.Decimal,System.Decimal)">
+ <summary>
+ This function adds two numbers and returns the result
+ </summary>
+ <param name="decNum1">The first number to add</param>
+ <param name="decNum2">The second number to add</param>
+ <returns>decNum1 + decNum2</returns>
+</member>
+<member name="M:MathLogic.CalculatorMathLogic.Subtraction(System.Decimal,System.Decimal)">
+ <summary>
+ This function subtracts two numbers and returns the result
+ </summary>
+ <param name="decNum1">The number to be subtracted from</param>
+ <param name="decNum2">The number to subtract</param>
+ <returns>decNum1 - decNum2</returns>
+</member>
+<member name="M:MathLogic.CalculatorMathLogic.Division(System.Decimal,System.Decimal)">
+ <summary>
+ This function divides two numbers and returns the result
+ </summary>
+ <param name="decNum1">The number to be divided</param>
+ <param name="decNum2">The number to be divided by</param>
+ <returns>decNum1 / decNum2</returns>
+</member>
+<member name="M:MathLogic.CalculatorMathLogic.Multiplication(System.Decimal,System.Decimal)">
+ <summary>
+ This function multiplies two numbers and returns the result
+ </summary>
+ <param name="decNum1">The first number to be multiply</param>
+ <param name="decNum2">The second number to be multiply</param>
+ <returns>decNum1 * decNum2</returns>
+</member>
+<member name="M:MathLogic.CalculatorMathLogic.ConvertToDecimal(System.String,System.Int32)">
+ <summary>
+ This function converts a number in a base other than 10 to decimal (base 10)
+ </summary>
+ <param name="sNumToConvert">The number to be converted to Decimal in string form</param>
+ <param name="iBase">The current base system the first number is in</param>
+ <returns>The first number as a decimal (base 10)</returns>
+</member>
+<member name="M:MathLogic.CalculatorMathLogic.ConvertFromDecimal(System.Decimal,System.Int32)">
+ <summary>
+ This function converts a number from Decimal (base 10) to any other base 
+ </summary>
+ <param name="decNumToConvert">This is the number to be converted</param>
+ <param name="iBase">This is the base that you would like to convert to</param>
+ <returns>The number entered (base 10) converted to the specified base</returns>
+</member>
+</members>
+</doc>

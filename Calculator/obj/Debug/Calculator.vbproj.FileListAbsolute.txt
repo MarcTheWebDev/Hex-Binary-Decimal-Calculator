@@ -1,0 +1,30 @@
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.exe
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\bin\Debug\Calculator.xml
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.CalculatorDisplay.resources
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.Cache
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.xml
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+c:\users\msaunders\documents\visual studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.vbprojResolveAssemblyReference.cache
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\Calculator\bin\Debug\MathLogic.dll
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\Calculator\bin\Debug\MathLogic.pdb
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\Calculator\bin\Debug\MathLogic.xml
+C:\Users\msaunders\Documents\Visual Studio 2015\Projects\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\obj\Debug\Calculator.xml
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\bin\Debug\Calculator.xml
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\bin\Debug\MathLogic.dll
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\bin\Debug\MathLogic.pdb
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\bin\Debug\MathLogic.xml
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\obj\Debug\Calculator.vbprojResolveAssemblyReference.cache
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\obj\Debug\Calculator.CalculatorDisplay.resources
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\msaunders\Source\Workspaces\Workspace\DevTraining\MSaunders\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.Cache

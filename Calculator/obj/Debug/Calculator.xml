@@ -1,0 +1,193 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Calculator
+</name>
+</assembly>
+<members>
+<member name="T:Calculator.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Calculator.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Calculator.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Calculator.ButtonExtended">
+ -----------------------------------------------------------------------------
+ Project	 : Calculator
+ Class	 : ButtonExtended
+ -----------------------------------------------------------------------------
+ <summary>
+   The class behind the ButtonExtended control including a color change in the Constructor
+   and override for the ResetForeColor method
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Marcus]	2/20/2017	Created
+ </history>
+ -----------------------------------------------------------------------------
+</member>
+<member name="M:Calculator.ButtonExtended.#ctor">
+ <summary>
+ This Sub overrides the Button constructor and changes the forecolor
+ </summary>
+</member>
+<member name="M:Calculator.ButtonExtended.ResetForeColor">
+ <summary>
+ This Sub overrides the ResetForeColor sub and changes the forecolor to reset to Navy
+ </summary>
+</member>
+<member name="T:Calculator.CalculatorDisplay">
+ -----------------------------------------------------------------------------
+ Project	 : Calculator
+ Class	 : CalculatorDisplay
+ -----------------------------------------------------------------------------
+ <summary>
+   The class behind the Calculator Display composite control including
+   methods to clear the display
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Marcus]	2/20/2017	Created
+ </history>
+ -----------------------------------------------------------------------------
+</member>
+<member name="M:Calculator.CalculatorDisplay.Clear">
+ <summary>
+ This sub clears the data contained in the CalculatorDisplay composite control.
+ </summary>
+</member>
+<member name="M:Calculator.CalculatorDisplay.txtNumberDisplay_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ This method changes the text size in accordance with the amount of characters on screen according
+ to how many characters are on screen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Calculator.CalculatorDisplay.txtNumberDisplay_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ This method just exposes the txtNumberDisplay.KeyDown method for outside use
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Calculator.CalculatorDisplay.txtNumberDisplay_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+ This method just exposes the txtNumberDisplay.KeyPress method for outside use
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Calculator.CalculatorDisplay.txtNumberDisplay_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ This method just exposes the txtNumberDisplay.KeyUp method for outside use
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:Calculator.Calculator">
+ -----------------------------------------------------------------------------
+ Project	 : Calculator
+ Class	 : Calculator
+ -----------------------------------------------------------------------------
+ <summary>
+   The code for the UI of the calculator that handles click events, input validation,  and calls on other
+   methods to do math operations.
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[Marcus]	2/20/2017	Created
+ </history>
+ -----------------------------------------------------------------------------
+</member>
+<member name="M:Calculator.Calculator.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ This sub just initializes some base values into things like the dictionary and combo box on form load
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.btnNumPad_Click(System.Object,System.EventArgs)">
+ <summary>
+ This sub ensures that when a number button is clicked that the number is copied to the display appropriately
+ and that the program does not attempt to cast or format values with commas that shouldn't be (like hex or binary)
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.cboNumSystemSelect_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ On the cbo changing this sub re-enables all buttons and then disables ones that do not fit with the current numbering scheme.
+ It also sets the composite control's label to be equal to the system name
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.btnNumPadEquals_Click(System.Object,System.EventArgs)">
+ <summary>
+ This sub handles calling the methods in the Math Logic class library to output the results to the screen one the = 
+ button is clicked based on the active operator and numbers entered
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.cdCalcDisplay_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ This method handles allowing or disallowing key input as it pertains to the current numbering system.
+ It sets the p_UnacceptableCharWasInput boolean to flag inapropriate input to be blocked in a later keyPress method
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.cdCalcDisplay_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+ This sub handles rejecting key presses after a quick check to see if the flagged value was a . or a - and if that is appropriate for
+ the numbering system or if that symbol already exists in the number
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.cdCalcDisplay_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ This sub handles formatting the number to have commas if they are entered by keyboard rather than buttons
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.btnNumPadOperators_Click(System.Object,System.EventArgs)">
+ <summary>
+ This sub handles whether clicking an operator changes the sActiveOperator variable based off of the state of the calculator
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.btnClearAll_Click(System.Object,System.EventArgs)">
+ <summary>
+ This sub Clears the current calculator data when the clear button is clicked
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+<member name="M:Calculator.Calculator.btnDecimal_Click(System.Object,System.EventArgs)">
+ <summary>
+ This sub handles adding a decimal if appropriate for the current value of the number and the numbering system
+ </summary>
+ <param name="sender">The sender of the event</param>
+ <param name="e">The event arguments</param>
+</member>
+</members>
+</doc>
